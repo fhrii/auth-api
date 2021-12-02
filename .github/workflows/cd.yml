@@ -22,4 +22,5 @@ jobs:
             git pull origin master
             yarn install
             yarn run migrate up
+            yarn build
             pm2 restart auth-api
